@@ -1,135 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Jyotsana — AI-assisted cybersecurity</title>
+  <title>Jyotsana — AI-assisted cybersecurity</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 
-<style>
-  :root {
-    --main: #2563EB;
-    --text: #111827;
-    --bg: #F8FAFC;
-    --accent: #06B6D4;
-  }
+  <style>
+    :root {
+      --main: #2563EB;
+      --text: #111827;
+      --bg: #F8FAFC;
+      --accent: #06B6D4;
+    }
 
-  * {
-    box-sizing: border-box;
-  }
+    * {
+      box-sizing: border-box;
+    }
 
-  html,
-  body {
-    margin: 0;
-    height: 100%;
-    background: var(--bg);
-    color: var(--text);
-    font-family: 'Inter', sans-serif;
-  }
+    html, body {
+      margin: 0;
+      height: 100%;
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+    }
 
-  .wrap {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 32px;
-  }
+    .wrap {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 32px;
+    }
 
-  .mark {
-    margin-bottom: 28px;
-  }
+    .mark {
+      margin-bottom: 28px;
+    }
 
-  h1 {
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 700;
-    font-size: clamp(28px, 6vw, 44px);
-    margin: 0 0 12px;
-    letter-spacing: -0.01em;
-  }
+    h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+      font-size: clamp(28px, 6vw, 44px);
+      margin: 0 0 12px;
+      letter-spacing: -0.01em;
+    }
 
-  p {
-    font-size: 16px;
-    color: #475569;
-    margin: 0 0 28px;
-    max-width: 480px;
-    line-height: 1.6;
-  }
+    p {
+      font-size: 16px;
+      color: #475569;
+      margin: 0 0 28px;
+      max-width: 480px;
+      line-height: 1.6;
+    }
 
-  .status {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 13px;
-    color: var(--main);
-    font-weight: 500;
-    letter-spacing: 0.02em;
-  }
+    .status {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      color: var(--main);
+      font-weight: 500;
+      letter-spacing: 0.02em;
+    }
 
-  .dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: var(--accent);
-  }
-</style>
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+  </style>
 </head>
 
 <body>
 
-<div class="wrap">
+  <div class="wrap">
 
-  <svg
-    class="mark"
-    width="64"
-    height="64"
-    viewBox="0 0 72 72"
-    xmlns="http://www.w3.org/2000/svg"
-    role="img"
-    aria-label="JD monogram"
-  >
-    <polygon
-      points="36,3 65,19.5 65,52.5 36,69 7,52.5 7,19.5"
-      fill="#2563EB"
-    />
+    <svg
+      class="mark"
+      width="64"
+      height="64"
+      viewBox="0 0 72 72"
+      xmlns="http://www.w3.org/2000/svg"
+      role="img"
+      aria-label="JD monogram"
+    >
+      <polygon
+        points="36,3 65,19.5 65,52.5 36,69 7,52.5 7,19.5"
+        fill="#2563EB"
+      />
 
-    <polygon
-      points="36,3 65,19.5 65,52.5 36,69 7,52.5 7,19.5"
-      fill="none"
-      stroke="#06B6D4"
-      stroke-width="1.5"
-    />
+      <polygon
+        points="36,3 65,19.5 65,52.5 36,69 7,52.5 7,19.5"
+        fill="none"
+        stroke="#06B6D4"
+        stroke-width="1.5"
+      />
 
-    <text
-      x="36"
-      y="44"
-      text-anchor="middle"
-      font-family="Space Grotesk, sans-serif"
-      font-weight="700"
-      font-size="26"
-      fill="#F8FAFC"
-    >JD</text>
-  </svg>
+      <text
+        x="36"
+        y="44"
+        text-anchor="middle"
+        font-family="Space Grotesk, sans-serif"
+        font-weight="700"
+        font-size="26"
+        fill="#F8FAFC"
+      >JD</text>
+    </svg>
 
-  <h1>Jyotsana</h1>
+    <h1>Jyotsana</h1>
 
-  <p>
-    I turn AI-assisted analysis into security findings you can act on.
-    Portfolio in progress — case studies coming soon.
-  </p>
+    <p>
+      I turn AI-assisted analysis into security findings you can act on.
+      Portfolio in progress — case studies coming soon.
+    </p>
 
-  <span class="status">
-    <span class="dot"></span>
-    Building in public
-  </span>
+    <span class="status">
+      <span class="dot"></span>
+      Building in public
+    </span>
 
-</div>
+  </div>
 
 </body>
 </html>
