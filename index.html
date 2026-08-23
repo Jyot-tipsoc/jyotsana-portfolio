@@ -98,7 +98,7 @@
     border-color:var(--main);
   }
   .link-btn.disabled{
-    color:var(--muted);
+    color:#5B6675;
     cursor:default;
     background:#F1F5F9;
   }
@@ -160,7 +160,7 @@
   }
   input[type="text"], input[type="email"], textarea{
     width:100%;
-    padding:10px 12px;
+    padding:13px 12px;
     border:1px solid var(--line);
     border-radius:8px;
     font-family:'Inter',sans-serif;
@@ -178,12 +178,13 @@
     color:#fff;
     border:none;
     border-radius:8px;
-    padding:10px 20px;
+    padding:15px 22px;
     font-family:'Inter',sans-serif;
     font-size:14px;
     font-weight:500;
     cursor:pointer;
     margin-top:6px;
+    line-height:1;
   }
   .submit-btn:hover{background:#1d4ed8;}
   .submit-btn:disabled{background:var(--muted);cursor:default;}
@@ -199,7 +200,13 @@
     color:var(--muted);
     margin-top:14px;
   }
-  .fallback-email a{color:var(--main);}
+  .fallback-email a{
+    color:var(--main);
+    display:inline-block;
+    padding:16px 4px;
+    margin:-16px -4px;
+    line-height:1;
+  }
 
   footer{
     border-top:1px solid var(--line);
