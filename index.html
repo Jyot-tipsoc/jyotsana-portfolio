@@ -142,6 +142,36 @@
   }
   .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);}
 
+  /* case study */
+  .case-study{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:28px 24px;
+  }
+  .case-study h3{
+    font-family:'Space Grotesk',sans-serif;
+    font-weight:700;
+    font-size:20px;
+    margin:0 0 16px;
+  }
+  .case-study .beat{margin-bottom:22px;}
+  .case-study .beat:last-child{margin-bottom:0;}
+  .case-study .beat-label{
+    font-size:11px;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--main);
+    font-weight:600;
+    margin:0 0 8px;
+  }
+  .case-study .beat p{
+    font-size:14.5px;
+    color:#334155;
+    margin:0;
+    max-width:64ch;
+  }
+
   /* contact form */
   .contact-form{
     background:var(--card);
@@ -270,9 +300,25 @@
 
   <section>
     <h2>Case studies</h2>
-    <div class="coming-soon">
-      <span class="status-dot"><span class="dot"></span>Building in public</span>
-      <p>Case studies are being written and added here as internship work is completed — starting with how this portfolio itself was built. Check back soon, or reach out directly using the links above.</p>
+    <div class="case-study">
+      <h3>Building the AI-assisted cybersecurity portfolio</h3>
+
+      <div class="beat">
+        <p class="beat-label">The problem</p>
+        <p>I had skills, projects, certifications, and AI learning experience, but no clear way to present them together. I also didn't know how to show that I could use AI practically for cybersecurity work, instead of just listing "AI" and "cybersecurity" as skills on a CV.</p>
+      </div>
+
+      <div class="beat">
+        <p class="beat-label">What I did (and decided)</p>
+        <p>I considered positioning myself broadly as a cybersecurity candidate, but chose a narrower claim instead: that I can use AI tools to analyze cybersecurity problems and turn technical findings into clear, practical security insights. That fits both my cybersecurity background and my AI Fluency internship, and it's specific enough to actually prove.</p>
+        <p>I defined the audience as an AI-focused hiring manager or cybersecurity team lead, and picked one action: get them to contact me for an interview. I set a simple visual identity — Space Grotesk and Inter, a blue and cyan technical palette, a JD monogram — then mapped the site to four sections, cutting anything that didn't move someone toward that one action.</p>
+        <p>AI helped me generate options, challenge my thinking, and pressure-test the sitemap against the claim. But the claim, the audience, the visual direction, and the final structure were my calls. The pressure-test also surfaced a decision I hadn't made yet: my case studies need to show the AI-assisted process itself — what I asked, what the AI produced, what I checked or changed — not just the finished result.</p>
+      </div>
+
+      <div class="beat">
+        <p class="beat-label">What came of it</p>
+        <p>The identity kit and sitemap are finalized, and this site is live and being built out week by week. What's changed is the direction: I now have a specific claim, a defined audience and CTA, and a visual identity that stays consistent across the site. The pressure-test also gave me a concrete requirement for every case study I build next — show the AI-assisted process, not just the output.</p>
+      </div>
     </div>
   </section>
 
