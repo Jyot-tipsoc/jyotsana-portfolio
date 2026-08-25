@@ -4,7 +4,21 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Jyotsana — AI-assisted cybersecurity</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon-180.png">
 <meta name="description" content="Jyotsana turns AI-assisted analysis into security findings you can act on. AI Fluency internship portfolio, in progress.">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jyotsana — AI-assisted cybersecurity">
+<meta property="og:description" content="I turn AI-assisted analysis into security findings you can act on. AI Fluency internship portfolio, in progress.">
+<meta property="og:url" content="https://jyot-tipsoc.github.io/">
+<meta property="og:image" content="https://jyot-tipsoc.github.io/social-preview.png">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Jyotsana — AI-assisted cybersecurity">
+<meta name="twitter:description" content="I turn AI-assisted analysis into security findings you can act on.">
+<meta name="twitter:image" content="https://jyot-tipsoc.github.io/social-preview.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -325,9 +339,10 @@
   <section id="contact">
     <h2>Get in touch</h2>
     <div class="contact-form">
-      <form id="contactForm">
+      <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
         <input type="hidden" name="access_key" value="b26db833-0f52-458a-8637-fa51d10c8df5">
         <input type="hidden" name="subject" value="New message from portfolio site">
+        <input type="hidden" name="redirect" value="https://jyot-tipsoc.github.io/#contact">
         <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
 
         <div class="field">
@@ -395,5 +410,9 @@
     submitBtn.textContent = 'Send message';
   });
 </script>
+
+<!-- Cloudflare Web Analytics — replace YOUR_TOKEN_HERE with your real token from the Cloudflare dashboard -->
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "YOUR_TOKEN_HERE"}'></script>
+
 </body>
 </html>
